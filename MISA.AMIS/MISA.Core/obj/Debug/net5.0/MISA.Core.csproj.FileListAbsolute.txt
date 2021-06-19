@@ -1,0 +1,48 @@
+D:\Misa\C#\API\MISA.AMIS\MISA.Core\bin\Debug\net5.0\MISA.Core.deps.json
+D:\Misa\C#\API\MISA.AMIS\MISA.Core\bin\Debug\net5.0\MISA.Core.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.Core\bin\Debug\net5.0\ref\MISA.Core.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.Core\bin\Debug\net5.0\MISA.Core.pdb
+D:\Misa\C#\API\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.csprojAssemblyReference.cache
+D:\Misa\C#\API\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Misa\C#\API\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.AssemblyInfoInputs.cache
+D:\Misa\C#\API\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.AssemblyInfo.cs
+D:\Misa\C#\API\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.csproj.CoreCompileInputs.cache
+D:\Misa\C#\API\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.Core\obj\Debug\net5.0\ref\MISA.Core.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.pdb
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.pdb
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Core\bin\Debug\net5.0\MISA.Core.deps.json
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Core\bin\Debug\net5.0\MISA.Core.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Core\bin\Debug\net5.0\ref\MISA.Core.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Core\bin\Debug\net5.0\MISA.Core.pdb
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.csproj.AssemblyReference.cache
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.AssemblyInfoInputs.cache
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.AssemblyInfo.cs
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.csproj.CoreCompileInputs.cache
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\ref\MISA.Core.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Core\bin\Debug\net5.0\MISA.Core.deps.json
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Core\bin\Debug\net5.0\MISA.Core.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Core\bin\Debug\net5.0\ref\MISA.Core.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Core\bin\Debug\net5.0\MISA.Core.pdb
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.csprojAssemblyReference.cache
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.AssemblyInfoInputs.cache
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.AssemblyInfo.cs
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.csproj.CoreCompileInputs.cache
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\ref\MISA.Core.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.pdb
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Core\bin\Debug\net5.0\MISA.Core.deps.json
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Core\bin\Debug\net5.0\MISA.Core.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Core\bin\Debug\net5.0\ref\MISA.Core.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Core\bin\Debug\net5.0\MISA.Core.pdb
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.csprojAssemblyReference.cache
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.AssemblyInfoInputs.cache
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.AssemblyInfo.cs
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.csproj.CoreCompileInputs.cache
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\ref\MISA.Core.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.pdb

@@ -1,0 +1,180 @@
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\appsettings.Development.json
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\appsettings.json
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.AMIS.exe
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.AMIS.deps.json
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.AMIS.runtimeconfig.json
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.AMIS.runtimeconfig.dev.json
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.AMIS.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\ref\MISA.AMIS.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.AMIS.pdb
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Dapper.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Google.Protobuf.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MySql.Data.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Zstandard.Net.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.Core.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.Ifarstructure.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.Core.pdb
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.Ifarstructure.pdb
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.csprojAssemblyReference.cache
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.AssemblyInfoInputs.cache
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.AssemblyInfo.cs
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.csproj.CoreCompileInputs.cache
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.MvcApplicationPartsAssemblyInfo.cs
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.MvcApplicationPartsAssemblyInfo.cache
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\staticwebassets\MISA.AMIS.StaticWebAssets.Manifest.cache
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\staticwebassets\MISA.AMIS.StaticWebAssets.xml
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\scopedcss\bundle\MISA.AMIS.styles.css
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.RazorTargetAssemblyInfo.cache
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.csproj.CopyComplete
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\ref\MISA.AMIS.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.pdb
+D:\Misa\C#\API\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.genruntimeconfig.cache
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.pdb
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\appsettings.json
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.AMIS.exe
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.AMIS.deps.json
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.AMIS.runtimeconfig.json
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.AMIS.runtimeconfig.dev.json
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.AMIS.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\ref\MISA.AMIS.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.AMIS.pdb
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Dapper.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Zstandard.Net.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.Core.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.Ifarstructure.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.Core.pdb
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.Ifarstructure.pdb
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.csproj.AssemblyReference.cache
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.AssemblyInfoInputs.cache
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.AssemblyInfo.cs
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.csproj.CoreCompileInputs.cache
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\staticwebassets\MISA.AMIS.StaticWebAssets.Manifest.cache
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\staticwebassets\MISA.AMIS.StaticWebAssets.xml
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\scopedcss\bundle\MISA.AMIS.styles.css
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.RazorTargetAssemblyInfo.cache
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.csproj.CopyComplete
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\ref\MISA.AMIS.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.genruntimeconfig.cache
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\appsettings.Development.json
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\appsettings.json
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.AMIS.exe
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.AMIS.deps.json
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.AMIS.runtimeconfig.json
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.AMIS.runtimeconfig.dev.json
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.AMIS.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\ref\MISA.AMIS.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.AMIS.pdb
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Dapper.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Google.Protobuf.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MySql.Data.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Zstandard.Net.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.Core.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.Ifarstructure.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.Core.pdb
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.Ifarstructure.pdb
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.csprojAssemblyReference.cache
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.AssemblyInfoInputs.cache
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.AssemblyInfo.cs
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.csproj.CoreCompileInputs.cache
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.MvcApplicationPartsAssemblyInfo.cs
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.MvcApplicationPartsAssemblyInfo.cache
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\staticwebassets\MISA.AMIS.StaticWebAssets.Manifest.cache
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\staticwebassets\MISA.AMIS.StaticWebAssets.xml
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\scopedcss\bundle\MISA.AMIS.styles.css
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.RazorTargetAssemblyInfo.cache
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.csproj.CopyComplete
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\ref\MISA.AMIS.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.pdb
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.genruntimeconfig.cache
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\appsettings.Development.json
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\appsettings.json
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.AMIS.exe
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.AMIS.deps.json
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.AMIS.runtimeconfig.json
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.AMIS.runtimeconfig.dev.json
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.AMIS.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\ref\MISA.AMIS.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.AMIS.pdb
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Dapper.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Google.Protobuf.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MySql.Data.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Zstandard.Net.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.Core.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.Ifarstructure.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.Core.pdb
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\bin\Debug\net5.0\MISA.Ifarstructure.pdb
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.csprojAssemblyReference.cache
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.AssemblyInfoInputs.cache
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.AssemblyInfo.cs
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.csproj.CoreCompileInputs.cache
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.MvcApplicationPartsAssemblyInfo.cs
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.MvcApplicationPartsAssemblyInfo.cache
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\staticwebassets\MISA.AMIS.StaticWebAssets.Manifest.cache
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\staticwebassets\MISA.AMIS.StaticWebAssets.xml
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\scopedcss\bundle\MISA.AMIS.styles.css
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.RazorTargetAssemblyInfo.cache
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.csproj.CopyComplete
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\ref\MISA.AMIS.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.pdb
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.genruntimeconfig.cache

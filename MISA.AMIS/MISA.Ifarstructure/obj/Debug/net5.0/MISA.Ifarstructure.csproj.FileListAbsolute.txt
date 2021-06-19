@@ -1,0 +1,60 @@
+D:\Misa\C#\API\MISA.AMIS\MISA.Ifarstructure\bin\Debug\net5.0\MISA.Core.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.csprojAssemblyReference.cache
+D:\Misa\C#\API\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Misa\C#\API\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.AssemblyInfoInputs.cache
+D:\Misa\C#\API\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.AssemblyInfo.cs
+D:\Misa\C#\API\MISA.AMIS\MISA.Ifarstructure\bin\Debug\net5.0\MISA.Ifarstructure.deps.json
+D:\Misa\C#\API\MISA.AMIS\MISA.Ifarstructure\bin\Debug\net5.0\MISA.Ifarstructure.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.Ifarstructure\bin\Debug\net5.0\ref\MISA.Ifarstructure.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.Ifarstructure\bin\Debug\net5.0\MISA.Ifarstructure.pdb
+D:\Misa\C#\API\MISA.AMIS\MISA.Ifarstructure\bin\Debug\net5.0\MISA.Core.pdb
+D:\Misa\C#\API\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.csproj.CoreCompileInputs.cache
+D:\Misa\C#\API\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.csproj.CopyComplete
+D:\Misa\C#\API\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\ref\MISA.Ifarstructure.dll
+D:\Misa\C#\API\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.pdb
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.pdb
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Ifarstructure\bin\Debug\net5.0\MISA.Ifarstructure.deps.json
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Ifarstructure\bin\Debug\net5.0\MISA.Ifarstructure.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Ifarstructure\bin\Debug\net5.0\ref\MISA.Ifarstructure.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Ifarstructure\bin\Debug\net5.0\MISA.Ifarstructure.pdb
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Ifarstructure\bin\Debug\net5.0\MISA.Core.dll
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Ifarstructure\bin\Debug\net5.0\MISA.Core.pdb
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.csproj.AssemblyReference.cache
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.AssemblyInfoInputs.cache
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.AssemblyInfo.cs
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.csproj.CoreCompileInputs.cache
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.csproj.CopyComplete
+C:\Users\Nvtuan\New folder\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\ref\MISA.Ifarstructure.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Ifarstructure\bin\Debug\net5.0\MISA.Ifarstructure.deps.json
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Ifarstructure\bin\Debug\net5.0\MISA.Ifarstructure.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Ifarstructure\bin\Debug\net5.0\ref\MISA.Ifarstructure.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Ifarstructure\bin\Debug\net5.0\MISA.Ifarstructure.pdb
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Ifarstructure\bin\Debug\net5.0\MISA.Core.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Ifarstructure\bin\Debug\net5.0\MISA.Core.pdb
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.csprojAssemblyReference.cache
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.AssemblyInfoInputs.cache
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.AssemblyInfo.cs
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.csproj.CoreCompileInputs.cache
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.csproj.CopyComplete
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\ref\MISA.Ifarstructure.dll
+D:\Misa\BT_Test\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.pdb
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Ifarstructure\bin\Debug\net5.0\MISA.Ifarstructure.deps.json
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Ifarstructure\bin\Debug\net5.0\MISA.Ifarstructure.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Ifarstructure\bin\Debug\net5.0\ref\MISA.Ifarstructure.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Ifarstructure\bin\Debug\net5.0\MISA.Ifarstructure.pdb
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Ifarstructure\bin\Debug\net5.0\MISA.Core.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Ifarstructure\bin\Debug\net5.0\MISA.Core.pdb
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.csprojAssemblyReference.cache
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.AssemblyInfoInputs.cache
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.AssemblyInfo.cs
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.csproj.CoreCompileInputs.cache
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.csproj.CopyComplete
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\ref\MISA.Ifarstructure.dll
+D:\Misa\BT\bt_test\MISA.AMIS\MISA.Ifarstructure\obj\Debug\net5.0\MISA.Ifarstructure.pdb
