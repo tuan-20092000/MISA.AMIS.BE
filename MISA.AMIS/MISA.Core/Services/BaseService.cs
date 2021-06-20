@@ -40,6 +40,12 @@ namespace MISA.Core.Services
         {
             return _baseRepository.Update(entity);
         }
+
+        // validate object trước khi cất
+        public virtual bool ValidateObject(MISAEntity entity)
+        {
+            return true;
+        }
         #endregion
     }
 }

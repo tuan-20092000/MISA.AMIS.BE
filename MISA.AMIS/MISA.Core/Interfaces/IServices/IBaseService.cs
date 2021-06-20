@@ -23,5 +23,12 @@ namespace MISA.Core.Interfaces.IServices
         /// <param name="entityId">Id của thực thể</param>
         /// <returns>số lượng bản ghi update được</returns>
         ServiceResult Update(MISAEntity entity);
+
+        /// <summary>
+        /// validate object trước khi cất
+        /// </summary>
+        /// <param name="entity">thực thể</param>
+        /// <returns>true nếu phù hợp, false nếu không phù hợp</returns>
+        bool ValidateObject(MISAEntity entity);
     }
 }

@@ -872,11 +872,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Misa\\BT\\bt_test\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj",
+      "projectUniqueName": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj",
       "projectName": "MISA.Core",
-      "projectPath": "D:\\Misa\\BT\\bt_test\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj",
+      "projectPath": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj",
       "packagesPath": "C:\\Users\\tuan0\\.nuget\\packages\\",
-      "outputPath": "D:\\Misa\\BT\\bt_test\\MISA.AMIS\\MISA.Core\\obj\\",
+      "outputPath": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tuan0\\AppData\\Roaming\\NuGet\\NuGet.Config",

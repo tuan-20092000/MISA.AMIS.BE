@@ -9,6 +9,8 @@ namespace MISA.Core.Interfaces.IServices
 {
     public interface IEmployeeService : IBaseService<Employee>
     {
-        bool CheckEmployeeCodeExist(string EmployeeCode);
+        bool CheckEmployeeCodeExist(Employee employee);
+
+        bool ValidateObject(Employee employee);
     }
 }

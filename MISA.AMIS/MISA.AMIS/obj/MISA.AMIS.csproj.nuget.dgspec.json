@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Misa\\BT\\bt_test\\MISA.AMIS\\MISA.AMIS\\MISA.AMIS.csproj": {}
+    "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.AMIS\\MISA.AMIS.csproj": {}
   },
   "projects": {
-    "D:\\Misa\\BT\\bt_test\\MISA.AMIS\\MISA.AMIS\\MISA.AMIS.csproj": {
+    "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.AMIS\\MISA.AMIS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Misa\\BT\\bt_test\\MISA.AMIS\\MISA.AMIS\\MISA.AMIS.csproj",
+        "projectUniqueName": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.AMIS\\MISA.AMIS.csproj",
         "projectName": "MISA.AMIS",
-        "projectPath": "D:\\Misa\\BT\\bt_test\\MISA.AMIS\\MISA.AMIS\\MISA.AMIS.csproj",
+        "projectPath": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.AMIS\\MISA.AMIS.csproj",
         "packagesPath": "C:\\Users\\tuan0\\.nuget\\packages\\",
-        "outputPath": "D:\\Misa\\BT\\bt_test\\MISA.AMIS\\MISA.AMIS\\obj\\",
+        "outputPath": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.AMIS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tuan0\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Misa\\BT\\bt_test\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj": {
-                "projectPath": "D:\\Misa\\BT\\bt_test\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj"
+              "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj": {
+                "projectPath": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj"
               },
-              "D:\\Misa\\BT\\bt_test\\MISA.AMIS\\MISA.Ifarstructure\\MISA.Ifarstructure.csproj": {
-                "projectPath": "D:\\Misa\\BT\\bt_test\\MISA.AMIS\\MISA.Ifarstructure\\MISA.Ifarstructure.csproj"
+              "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Ifarstructure\\MISA.Ifarstructure.csproj": {
+                "projectPath": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Ifarstructure\\MISA.Ifarstructure.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "D:\\Misa\\BT\\bt_test\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj": {
+    "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Misa\\BT\\bt_test\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj",
+        "projectUniqueName": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj",
         "projectName": "MISA.Core",
-        "projectPath": "D:\\Misa\\BT\\bt_test\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj",
+        "projectPath": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj",
         "packagesPath": "C:\\Users\\tuan0\\.nuget\\packages\\",
-        "outputPath": "D:\\Misa\\BT\\bt_test\\MISA.AMIS\\MISA.Core\\obj\\",
+        "outputPath": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tuan0\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -138,14 +138,14 @@
         }
       }
     },
-    "D:\\Misa\\BT\\bt_test\\MISA.AMIS\\MISA.Ifarstructure\\MISA.Ifarstructure.csproj": {
+    "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Ifarstructure\\MISA.Ifarstructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Misa\\BT\\bt_test\\MISA.AMIS\\MISA.Ifarstructure\\MISA.Ifarstructure.csproj",
+        "projectUniqueName": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Ifarstructure\\MISA.Ifarstructure.csproj",
         "projectName": "MISA.Ifarstructure",
-        "projectPath": "D:\\Misa\\BT\\bt_test\\MISA.AMIS\\MISA.Ifarstructure\\MISA.Ifarstructure.csproj",
+        "projectPath": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Ifarstructure\\MISA.Ifarstructure.csproj",
         "packagesPath": "C:\\Users\\tuan0\\.nuget\\packages\\",
-        "outputPath": "D:\\Misa\\BT\\bt_test\\MISA.AMIS\\MISA.Ifarstructure\\obj\\",
+        "outputPath": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Ifarstructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tuan0\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -162,8 +162,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Misa\\BT\\bt_test\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj": {
-                "projectPath": "D:\\Misa\\BT\\bt_test\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj"
+              "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj": {
+                "projectPath": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj"
               }
             }
           }

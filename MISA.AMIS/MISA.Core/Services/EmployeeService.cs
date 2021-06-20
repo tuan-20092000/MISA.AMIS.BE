@@ -37,13 +37,8 @@ namespace MISA.Core.Services
         {
             var employeeCode = employee.EmployeeCode;
             //ktra mã tồn tại hay chưa, nếu rồi thì trả về isValid = false
-            if (CheckEmployeeCodeExist(employeeCode))
+            if (ValidateObject(employee))
             {
-                serviceResult.isValid = false;
-                serviceResult.Messengers.Add($"Mã nhân viên <{employeeCode}> đã tồn tại, vui lòng kiểm tra lại.");
-                serviceResult.Data.Add(employee);
-                serviceResult.VFieldError = "Mã nhân viên";
-                serviceResult.EFieldError = "EmployeeCode";
                 return serviceResult;
             }
             // nếu chưa tồn tại mã thì gọi đến repo
@@ -51,15 +46,9 @@ namespace MISA.Core.Services
         }
 
         // hàm check mã nhân viên tồn tại hay chưa trước khi thêm mới
-        public bool CheckEmployeeCodeExist(string EmployeeCode)
+        public bool CheckEmployeeCodeExist(Employee employee)
         {
-            return _employeeRepository.CheckEmployeeCodeExist(EmployeeCode);
-        }
-
-        // hàm check mã nhân viên tồn tại hay chưa trước sửa
-        public bool CheckEmployeeBeforeUpdate(Employee employee)
-        {
-            return _employeeRepository.CheckEmployeeBeforeUpdate(employee);
+            return _employeeRepository.CheckEmployeeCodeExist(employee);
         }
 
 
@@ -72,18 +61,30 @@ namespace MISA.Core.Services
         {
             var employeeCode = employee.EmployeeCode;
             // ktra mã tồn tại hay chưa trước khi cất, nếu rồi thì trả về isValid service result = false
-            if (CheckEmployeeBeforeUpdate(employee))
+            if (ValidateObject(employee))
             {
-                serviceResult.isValid = false;
-                serviceResult.Messengers.Add($"Mã nhân viên <{employeeCode}> đã tồn tại, vui lòng kiểm tra lại.");
-                serviceResult.Data.Add(employee);
-                serviceResult.VFieldError = "Mã nhân viên";
-                serviceResult.EFieldError = "EmployeeCode";
                 return serviceResult;
             }
 
             // nếu chưa thì gọi tới repo
             return _employeeRepository.Update(employee);
+        }
+
+        // override validate object
+        public override bool ValidateObject(Employee employee)
+        {
+            if (CheckEmployeeCodeExist(employee))
+            {
+                var employeeCode = employee.EmployeeCode;
+                serviceResult.isValid = false;
+                serviceResult.Messengers.Add($"Mã nhân viên <{employeeCode}> đã tồn tại, vui lòng kiểm tra lại.");
+                serviceResult.Data.Add(employee);
+                serviceResult.VFieldError = "Mã nhân viên";
+                serviceResult.EFieldError = "EmployeeCode";
+                return false;
+            }
+
+            return true;
         }
 
         #endregion

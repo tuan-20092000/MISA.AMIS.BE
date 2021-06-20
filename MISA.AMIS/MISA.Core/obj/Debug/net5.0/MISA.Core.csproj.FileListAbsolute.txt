@@ -46,3 +46,15 @@ D:\Misa\BT\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.csproj.CoreCom
 D:\Misa\BT\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.dll
 D:\Misa\BT\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\ref\MISA.Core.dll
 D:\Misa\BT\bt_test\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.pdb
+D:\Project_MisaAmis\MISA.AMIS.BE\MISA.AMIS\MISA.Core\bin\Debug\net5.0\MISA.Core.deps.json
+D:\Project_MisaAmis\MISA.AMIS.BE\MISA.AMIS\MISA.Core\bin\Debug\net5.0\MISA.Core.dll
+D:\Project_MisaAmis\MISA.AMIS.BE\MISA.AMIS\MISA.Core\bin\Debug\net5.0\ref\MISA.Core.dll
+D:\Project_MisaAmis\MISA.AMIS.BE\MISA.AMIS\MISA.Core\bin\Debug\net5.0\MISA.Core.pdb
+D:\Project_MisaAmis\MISA.AMIS.BE\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.csprojAssemblyReference.cache
+D:\Project_MisaAmis\MISA.AMIS.BE\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project_MisaAmis\MISA.AMIS.BE\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.AssemblyInfoInputs.cache
+D:\Project_MisaAmis\MISA.AMIS.BE\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.AssemblyInfo.cs
+D:\Project_MisaAmis\MISA.AMIS.BE\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.csproj.CoreCompileInputs.cache
+D:\Project_MisaAmis\MISA.AMIS.BE\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.dll
+D:\Project_MisaAmis\MISA.AMIS.BE\MISA.AMIS\MISA.Core\obj\Debug\net5.0\ref\MISA.Core.dll
+D:\Project_MisaAmis\MISA.AMIS.BE\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.pdb

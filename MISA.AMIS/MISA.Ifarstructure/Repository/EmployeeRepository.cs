@@ -28,38 +28,21 @@ namespace MISA.Ifarstructure.Repository
         /// </summary>
         /// <param name="EmployeeCode">mã nhân viên</param>
         /// <returns>true nếu đã tồn tại, false nếu chưa tồn tại</returns>
-        public bool CheckEmployeeCodeExist(string EmployeeCode)
+        public bool CheckEmployeeCodeExist(Employee employee)
         {
-            // procedue check mã nhân viên trước khi thêm mới
-            var procedure = $"Proc_Check{ClassName}CodeExist";
+            {
+                // procedure check mã nhân viên trước khi sửa
+                var procedure = $"Proc_Check{ClassName}CodeExist";
 
-            // tạo dynamic và thêm tham số
-            DynamicParameters dynamic = new DynamicParameters();
-            dynamic.Add("@EmployeeCode", EmployeeCode);
+                // tạo dynamic và thêm tham số
+                DynamicParameters dynamic = new DynamicParameters();
+                dynamic.Add("@EmployeeId", employee.EmployeeId);
+                dynamic.Add("@EmployeeCode", employee.EmployeeCode);
 
-            // truy vấn và trả về kết quả
-            var res = DbConnection.Query<bool>(procedure, dynamic, commandType: CommandType.StoredProcedure).FirstOrDefault();
-            return res;
-        }
-
-        /// <summary>
-        /// hàm check mã nhân viên trước khi sửa
-        /// </summary>
-        /// <param name="employee">nhân viên</param>
-        /// <returns>true nếu đã tồn tại, false nếu chưa tồn tại</returns>
-        public bool CheckEmployeeBeforeUpdate(Employee employee)
-        {
-            // procedure check mã nhân viên trước khi sửa
-            var procedure = $"Proc_Check{ClassName}BeforeUpdate";
-
-            // tạo dynamic và thêm tham số
-            DynamicParameters dynamic = new DynamicParameters();
-            dynamic.Add("@EmployeeId", employee.EmployeeId);
-            dynamic.Add("@EmployeeCode", employee.EmployeeCode);
-
-            // truy vấn và trả về kết quả
-            var res = DbConnection.Query<bool>(procedure, dynamic, commandType: CommandType.StoredProcedure).FirstOrDefault();
-            return res;
+                // truy vấn và trả về kết quả
+                var res = DbConnection.Query<bool>(procedure, dynamic, commandType: CommandType.StoredProcedure).FirstOrDefault();
+                return res;
+            }
         }
 
         /// <summary>
@@ -105,7 +88,7 @@ namespace MISA.Ifarstructure.Repository
         public List<Employee> GetEmployeePage(int page, int countPerPage, string keySearch)
         {
             // tiền xử lý
-            if (page <= 0 || countPerPage <= 0) return null;
+            if (page < 1 || countPerPage < 1) return null;
             var startIndex = (page - 1) * countPerPage;
 
             // procedure lấy ra nhân viên theo điều kiện

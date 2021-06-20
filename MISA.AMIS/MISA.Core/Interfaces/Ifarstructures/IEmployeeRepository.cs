@@ -9,11 +9,9 @@ namespace MISA.Core.Interfaces.Ifarstructures
 {
     public interface IEmployeeRepository : IBaseRepository<Employee>
     {
-        // hàm ktra mã nhân viên tồn tại hay chưa trước khi lưu thêm mới
-        bool CheckEmployeeCodeExist(string EmployeeCode);
+        // hàm ktra mã nhân viên tồn tại hay chưa trước khi cất
+        bool CheckEmployeeCodeExist(Employee employee);
 
-        // hàm ktra mã nhân viên tồn tại hay chưa trước khi lưu sửa
-        bool CheckEmployeeBeforeUpdate(Employee employee);
 
         // hàm lấy ra số lượng bản ghi theo từ khóa
         int GetTotalRecord(string key);
