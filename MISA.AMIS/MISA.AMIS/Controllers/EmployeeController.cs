@@ -35,22 +35,38 @@ namespace MISA.AMIS.Controllers
         /// </summary>
         /// <param name="keySearch">từ khóa tìm kiếm</param>
         /// <returns>số lượng bản ghi tìm thấy</returns>
+        /// CreatedBy TuanNV (17/6/2021)
         [HttpPost("GetTotalRecord")]
         public IActionResult GetTotalRecord([FromBody]string keySearch)
         {
-            var res = _employeeRepository.GetTotalRecord(keySearch);
-            return Ok(res);
-        } 
+            try
+            {
+                var res = _employeeRepository.GetTotalRecord(keySearch);
+                return Ok(res);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
 
         /// <summary>
         /// API lấy ra mã nhân viên lớn nhất trong csdl
         /// </summary>
         /// <returns>mã nhân viên lớn nhất</returns>
+        /// CreatedBy TuanNV (17/6/2021)
         [HttpGet("GetMaxCode")]
         public IActionResult GetMaxCode()
         {
-            var res = _employeeRepository.GetMaxEmployeeCode();
-            return Ok(res);
+            try
+            {
+                var res = _employeeRepository.GetMaxEmployeeCode();
+                return Ok(res);
+            }
+            catch (Exception) 
+            { 
+                throw; 
+            }
         }
 
 
@@ -61,31 +77,47 @@ namespace MISA.AMIS.Controllers
         /// <param name="count">số lượng bản ghi/trang</param>
         /// <param name="keySearch">từ khóa tìm kiếm</param>
         /// <returns>list nhân viên</returns>
+        /// CreatedBy TuanNV (17/6/2021)
         [HttpPost("GetPage")]
         public IActionResult GetEmployeePage(int page, int count, [FromBody]string keySearch)
         {
-            var res = _employeeRepository.GetEmployeePage(page, count, keySearch);
-            if(res.Count > 0)
+            try
             {
-                return Ok(res);
+                var res = _employeeRepository.GetEmployeePage(page, count, keySearch);
+                if (res.Count > 0)
+                {
+                    return Ok(res);
+                }
+                return NoContent();
             }
-            return NoContent();
+            catch (Exception) 
+            { 
+                throw; 
+            }
         }
 
         /// <summary>
-        /// 
+        /// API lấy ra tất cả các bản ghi theo từ khóa tìm kiếm
         /// </summary>
-        /// <param name="keySearch"></param>
-        /// <returns></returns>
+        /// <param name="keySearch">từ khóa tìm kiếm</param>
+        /// <returns>list các bản ghi</returns>
+        /// CreatedBy TuanNV (17/6/2021)
         [HttpPost("GetAllData")]
         public IActionResult GetAllData([FromBody] string keySearch)
         {
-            var res = _employeeRepository.GetAllDataRecord(keySearch);
-            if (res.Count > 0)
+            try
             {
-                return Ok(res);
+                var res = _employeeRepository.GetAllDataRecord(keySearch);
+                if (res.Count > 0)
+                {
+                    return Ok(res);
+                }
+                return NoContent();
             }
-            return NoContent();
+            catch (Exception) 
+            { 
+                throw; 
+            }
         }
         #endregion
     }

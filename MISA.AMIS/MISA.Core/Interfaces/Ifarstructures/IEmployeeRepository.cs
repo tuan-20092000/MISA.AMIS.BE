@@ -23,6 +23,7 @@ namespace MISA.Core.Interfaces.Ifarstructures
         // hàm lấy ra list nhân viên theo trang, số lương bản ghi và từ khóa
         List<Employee> GetEmployeePage(int page, int countPerPage, string keySearch);
 
+        // hàm lấy ra tất cả bản ghi theo từ khóa tìm kiếm
         List<Employee> GetAllDataRecord(string keySearch);
     }
 }

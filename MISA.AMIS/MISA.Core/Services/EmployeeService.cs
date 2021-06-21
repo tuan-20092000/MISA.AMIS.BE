@@ -33,6 +33,7 @@ namespace MISA.Core.Services
         /// </summary>
         /// <param name="employee">nhân viên/param>
         /// <returns>service result có isValid = true nếu thêm mới thành công, false nếu không thành công</returns>
+        /// CreatedBy TuanNV (17/6/2021)
         public override ServiceResult Insert(Employee employee)
         {
             employee.EmployeeId = Guid.NewGuid();
@@ -57,6 +58,7 @@ namespace MISA.Core.Services
         /// </summary>
         /// <param name="employee">nhân viên</param>
         /// <returns>service result có isValid = true nếu thêm mới thành công, false nếu không thành công</returns>
+        /// CreatedBy TuanNV (17/6/2021)
         public override ServiceResult Update(Employee employee)
         {
             var employeeCode = employee.EmployeeCode;
@@ -71,6 +73,7 @@ namespace MISA.Core.Services
         }
 
         // override validate object
+        //CreatedBy TuanNV(17/6/2021)
         public override bool ValidateObject(Employee employee)
         {
             if (CheckEmployeeCodeExist(employee))

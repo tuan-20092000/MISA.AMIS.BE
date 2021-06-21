@@ -28,75 +28,134 @@ namespace MISA.AMIS.Controllers
         #endregion
 
         #region Methods
-        // GET: api/<MISAEntityController>
+        /// <summary>
+        /// API lấy ra tất cả thực thể trong csdl
+        /// </summary>
+        /// <returns>tất cả các bản ghi</returns>
+        /// CreatedBy TuanNV (17/6/2021)
         [HttpGet]
         public IActionResult Get()
         {
-            var entities = _baseRepository.GetAll();
-            if (entities.Count > 0)
+            try
             {
-                return Ok(entities);
+                var entities = _baseRepository.GetAll();
+                if (entities.Count > 0)
+                {
+                    return Ok(entities);
+                }
+                else
+                {
+                    return NoContent();
+                }
             }
-            else
+            catch (Exception)
             {
-                return NoContent();
+                throw;
             }
         }
 
-        // GET api/<CustomerController>/5
+        /// <summary>
+        /// API lấy ra thực thể theo id
+        /// </summary>
+        /// <param name="entityId">id thực thể</param>
+        /// <returns>bản ghi có id trùng với id truyền vào</returns>
+        /// CreatedBy TuanNV (17/6/2021)
         [HttpGet("{entityId}")]
         public IActionResult Get(Guid entityId)
         {
-            var entity = _baseRepository.GetById(entityId);
-            if (entity != null)
+            try
             {
-                return Ok(entity);
+                var entity = _baseRepository.GetById(entityId);
+                if (entity != null)
+                {
+                    return Ok(entity);
+                }
+                else
+                {
+                    return NoContent();
+                }
             }
-            else
+            catch (Exception)
             {
-                return NoContent();
+                throw;
             }
         }
 
-        // POST api/<CustomerController>
+        /// <summary>
+        /// API thêm mới 1 bản ghi
+        /// </summary>
+        /// <param name="entity">bản ghi</param>
+        /// <returns>service result có isValid = true nếu thêm thành công, false nếu thêm thất bại</returns>
+        /// CreatedBy TuanNV (17/6/2021)
         [HttpPost]
         public IActionResult Post([FromBody] MISAEntity entity)
         {
-            var result = _baseService.Insert(entity);
-            if (result.isValid == true)
+            try
             {
-                return Ok(result);
+                var result = _baseService.Insert(entity);
+                if (result.isValid == true)
+                {
+                    return Ok(result);
+                }
+                else
+                {
+                    return BadRequest(result);
+                }
             }
-            else
+            catch (Exception)
             {
-                return BadRequest(result);
+                throw;
             }
         }
 
-        // PUT api/<CustomerController>/5
+        /// <summary>
+        /// API sửa thông tin 1 bản ghi
+        /// </summary>
+        /// <param name="entity">thực thể</param>
+        /// <returns>service result có isValid = true nếu sửa thành công, false nếu sửa thất bại</returns>
+        /// CreatedBy TuanNV (17/6/2021)
         [HttpPut]
         public IActionResult Put([FromBody] MISAEntity entity)
         {
-            var result = _baseService.Update(entity);
-            if (result.isValid == true)
+            try
             {
-                return Ok(result);
+                var result = _baseService.Update(entity);
+                if (result.isValid == true)
+                {
+                    return Ok(result);
+                }
+                return BadRequest(result);
             }
-            return BadRequest(result);
+            catch(Exception)
+            {
+                throw;
+            }
         }
 
-        // DELETE api/<CustomerController>/5
+        /// <summary>
+        /// API xóa 1 bản ghi
+        /// </summary>
+        /// <param name="entityId">ID thực thể</param>
+        /// <returns>1 nếu xóa thành công, 0 nếu xóa thất bại</returns>
+        /// CreatedBy TuanNV (17/6/2021)
         [HttpDelete("{entityId}")]
         public IActionResult Delete(Guid entityId)
         {
-            var rowAffect = _baseRepository.Delete(entityId);
-            if (rowAffect > 0)
+            try
             {
-                return Ok(rowAffect);
+                var rowAffect = _baseRepository.Delete(entityId);
+                if (rowAffect > 0)
+                {
+                    return Ok(rowAffect);
+                }
+                else
+                {
+                    return BadRequest();
+                }
             }
-            else
+            catch (Exception)
             {
-                return BadRequest();
+                throw;
             }
         }
 

@@ -32,159 +32,152 @@ namespace MISA.Ifarstructure.Repository
         #endregion
 
         #region Methods
+
+        /// <summary>
+        /// hàm lấy hết các bản ghi trong csdl
+        /// </summary>
+        /// <returns>list các bản ghi</returns>
+        /// Createdby TuanNV (17/6/2021)
         public List<MISAEntity> GetAll()
         {
-            try
-            {
-                // procedure lấy toàn bộ nhân viên
-                var procedure = $"Proc_Get{ClassName}s";
+              // procedure lấy toàn bộ nhân viên
+              var procedure = $"Proc_Get{ClassName}s";
 
-                // thực hiện truy vấn
-                var entitis = DbConnection.Query<MISAEntity>(procedure, commandType: CommandType.StoredProcedure).ToList();
+              // thực hiện truy vấn
+              var entitis = DbConnection.Query<MISAEntity>(procedure, commandType: CommandType.StoredProcedure).ToList();
 
-                // trả về kết quả
-                return entitis;
-            }
-            catch(Exception)
-            {
-                throw;
-            }
-            
+              // trả về kết quả
+              return entitis;
         }
 
+        /// <summary>
+        /// hàm lấy ra bản ghi theo mã id
+        /// </summary>
+        /// <param name="entityId">id</param>
+        /// <returns>bản ghi có mã id tương ứng</returns>
+        /// Createdby TuanNV (17/6/2021)
         public MISAEntity GetById(Guid entityId)
         {
-            try
-            {
-                // procedure lấy nhân viên theo Id
-                var procedure = $"Proc_Get{ClassName}ById";
+              // procedure lấy nhân viên theo Id
+              var procedure = $"Proc_Get{ClassName}ById";
 
-                // tạo dynamicparam
-                DynamicParameters dynamic = new DynamicParameters();
-                dynamic.Add($"@{ClassName}Id", entityId);
+              // tạo dynamicparam
+              DynamicParameters dynamic = new DynamicParameters();
+              dynamic.Add($"@{ClassName}Id", entityId);
 
-                // thực hiện truy vấn
-                var entity = DbConnection.Query<MISAEntity>(procedure, dynamic, commandType: CommandType.StoredProcedure).FirstOrDefault();
+              // thực hiện truy vấn
+              var entity = DbConnection.Query<MISAEntity>(procedure, dynamic, commandType: CommandType.StoredProcedure).FirstOrDefault();
 
-                // trả về kết quả
-                return entity;
-            }
-            catch (Exception)
-            {
-                throw;
-            }
+              // trả về kết quả
+              return entity;
+           
         }
 
+        /// <summary>
+        /// hàm thêm mới bản ghi vào csdl
+        /// </summary>
+        /// <param name="entity">bản ghi</param>
+        /// <returns>service result isValid = true nếu thêm mới thành công, false nếu thất bại</returns>
+        /// Createdby TuanNV (17/6/2021)
         public ServiceResult Insert(MISAEntity entity)
         {
-            try
-            {
-                // procedure thêm mới nhân viên
-                var procedure = $"Proc_Insert{ClassName}";
+              // procedure thêm mới nhân viên
+              var procedure = $"Proc_Insert{ClassName}";
 
-                // tạo dynamic param
-                DynamicParameters dynamic = new DynamicParameters();
+              // tạo dynamic param
+              DynamicParameters dynamic = new DynamicParameters();
 
-                var properties = entity.GetType().GetProperties();
-                foreach (var prop in properties)
-                {
-                    var propName = prop.Name;
+              var properties = entity.GetType().GetProperties();
+              foreach (var prop in properties)
+              {
+                  var propName = prop.Name;
 
-                    var propValue = prop.GetValue(entity);
-                    if (propName == $"{ClassName}Id")
-                    {
-                        propValue = propValue.ToString();
-                    }
+                  var propValue = prop.GetValue(entity);
+                  if (propName == $"{ClassName}Id")
+                  {
+                      propValue = propValue.ToString();
+                  }
 
-                    dynamic.Add($"@{propName}", propValue);
-                }
+                  dynamic.Add($"@{propName}", propValue);
+              }
 
-                // thực hiện truy vấn và trả về kết quả
-                var rowAffect = DbConnection.Execute(procedure, dynamic, commandType: CommandType.StoredProcedure);
-                if (rowAffect > 0)
-                {
-                    serviceResult.Messengers.Add("Thêm mới thành công!");
-                    serviceResult.Data.Add(entity);
-                }
-                else
-                {
-                    serviceResult.isValid = false;
-                    serviceResult.Messengers.Add("Thêm mới thất bại");
-                    serviceResult.Data.Add(entity);
-                }
-                return serviceResult;
-            }
-            catch (Exception)
-            {
-                throw;
-            }
+              // thực hiện truy vấn và trả về kết quả
+              var rowAffect = DbConnection.Execute(procedure, dynamic, commandType: CommandType.StoredProcedure);
+              if (rowAffect > 0)
+              {
+                  serviceResult.Messengers.Add("Thêm mới thành công!");
+                  serviceResult.Data.Add(entity);
+              }
+              else
+              {
+                  serviceResult.isValid = false;
+                  serviceResult.Messengers.Add("Thêm mới thất bại");
+                  serviceResult.Data.Add(entity);
+              }
+              return serviceResult;
         }
 
+        /// <summary>
+        /// hàm update thông tin của 1 bản ghi
+        /// </summary>
+        /// <param name="entity">thông tin mới của bản ghi</param>
+        /// <returns>service result isValid = true nếu sửa thành công, false nếu thất bại</returns>
+        /// Createdby TuanNV (17/6/2021)
         public ServiceResult Update(MISAEntity entity)
         {
-            try
-            {
-                // procedure sửa thông tin nhân viên
-                var procedure = $"Proc_Update{ClassName}";
+              // procedure sửa thông tin nhân viên
+              var procedure = $"Proc_Update{ClassName}";
 
-                // tạo dynamic param
-                DynamicParameters dynamic = new DynamicParameters();
-                var sqlCommand = string.Empty;
-                var properties = entity.GetType().GetProperties();
-                foreach (var prop in properties)
-                {
-                    var propName = prop.Name;
-                    var propValue = prop.GetValue(entity);
-                    if (propName == $"{ClassName}Id")
-                    {
-                        propValue = propValue.ToString();
-                    }
-                    dynamic.Add($"@{propName}", propValue);
+              // tạo dynamic param
+              DynamicParameters dynamic = new DynamicParameters();
+              var sqlCommand = string.Empty;
+              var properties = entity.GetType().GetProperties();
+              foreach (var prop in properties)
+              {
+                  var propName = prop.Name;
+                  var propValue = prop.GetValue(entity);
+                  if (propName == $"{ClassName}Id")
+                  {
+                      propValue = propValue.ToString();
+                  }
+                  dynamic.Add($"@{propName}", propValue);
 
-                }
+              }
 
-                //thực thi truy vấn và trả về kết quả
-                var res = DbConnection.Execute(procedure, dynamic, commandType: CommandType.StoredProcedure);
-                if (res > 0)
-                {
-                    serviceResult.Messengers.Add("Sửa thành công!");
-                    serviceResult.Data.Add(entity);
-                }
-                else
-                {
-                    serviceResult.isValid = false;
-                    serviceResult.Messengers.Add("Sửa thất bại(không thể chèn vào csdl)");
-                    serviceResult.Data.Add(entity);
-                }
-                return serviceResult;
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-            
+              //thực thi truy vấn và trả về kết quả
+              var res = DbConnection.Execute(procedure, dynamic, commandType: CommandType.StoredProcedure);
+              if (res > 0)
+              {
+                  serviceResult.Messengers.Add("Sửa thành công!");
+                  serviceResult.Data.Add(entity);
+              }
+              else
+              {
+                  serviceResult.isValid = false;
+                  serviceResult.Messengers.Add("Sửa thất bại(không thể chèn vào csdl)");
+                  serviceResult.Data.Add(entity);
+              }
+              return serviceResult;
         }
 
+        /// <summary>
+        /// hàm xóa 1 bản ghi khỏi csdl
+        /// </summary>
+        /// <param name="entityId">id của bản ghi</param>
+        /// <returns>1 nếu xóa thành công, 0 nếu xóa thất bại</returns>
+        /// CreatedBy TuanNV (17/6/2021)
         public int Delete(Guid entityId)
         {
-            try
-            {
-                // procedure xóa 1 nhân viên
-                var procedure = $"Proc_Delete{ClassName}ById";
+             // procedure xóa 1 nhân viên
+             var procedure = $"Proc_Delete{ClassName}ById";
 
-                // xây dựng dynamic param
-                DynamicParameters dynamic = new DynamicParameters();
-                dynamic.Add("@Id", entityId.ToString());
+             // xây dựng dynamic param
+             DynamicParameters dynamic = new DynamicParameters();
+             dynamic.Add("@Id", entityId.ToString());
 
-                // thực thi và trả về kết quả
-                var rowAffect = DbConnection.Execute(procedure, dynamic, commandType: CommandType.StoredProcedure);
-                return rowAffect;
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-            
+             // thực thi và trả về kết quả
+             var rowAffect = DbConnection.Execute(procedure, dynamic, commandType: CommandType.StoredProcedure);
+             return rowAffect;
         }
 
         #endregion

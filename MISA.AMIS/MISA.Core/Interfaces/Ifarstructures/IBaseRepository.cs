@@ -14,6 +14,7 @@ namespace MISA.Core.Interfaces.Ifarstructures
         /// lấy tất cả bản ghi
         /// </summary>
         /// <returns>tất cả bản ghi trong bảng csdl</returns>
+        /// CreatedBy TuanNV (17/6/2021)
         List<MISAEntity> GetAll();
 
         /// <summary>
@@ -21,6 +22,7 @@ namespace MISA.Core.Interfaces.Ifarstructures
         /// </summary>
         /// <param name="entityId">ID thực thể</param>
         /// <returns>trả về thực thể có Id là entityId</returns>
+        /// CreatedBy TuanNV (17/6/2021)
         MISAEntity GetById(Guid entityId);
 
         /// <summary>
@@ -28,6 +30,7 @@ namespace MISA.Core.Interfaces.Ifarstructures
         /// </summary>
         /// <param name="entity">thực thể</param>
         /// <returns>trả về số lượng bản ghi bị ảnh hưởng (thêm được)</returns>
+        /// CreatedBy TuanNV (17/6/2021)
         ServiceResult Insert(MISAEntity entity);
 
         /// <summary>
@@ -36,6 +39,7 @@ namespace MISA.Core.Interfaces.Ifarstructures
         /// <param name="entity">thực thể</param>
         /// <param name="entityId">id của thực thể</param>
         /// <returns>số lượng bản ghi update được </returns>
+        /// CreatedBy TuanNV (17/6/2021)
         ServiceResult Update(MISAEntity entity);
 
         /// <summary>
@@ -43,6 +47,7 @@ namespace MISA.Core.Interfaces.Ifarstructures
         /// </summary>
         /// <param name="entityId">Id của thực thể</param>
         /// <returns>số lượng bản ghi xóa được</returns>
+        /// CreatedBy TuanNV (17/6/2021)
         int Delete(Guid entityId);
     }
 }
