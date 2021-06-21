@@ -35,9 +35,9 @@ namespace MISA.Core.Services
         /// <returns>service result có isValid = true nếu thêm mới thành công, false nếu không thành công</returns>
         public override ServiceResult Insert(Employee employee)
         {
-            var employeeCode = employee.EmployeeCode;
+            employee.EmployeeId = Guid.NewGuid();
             //ktra mã tồn tại hay chưa, nếu rồi thì trả về isValid = false
-            if (ValidateObject(employee))
+            if (!ValidateObject(employee))
             {
                 return serviceResult;
             }
@@ -61,7 +61,7 @@ namespace MISA.Core.Services
         {
             var employeeCode = employee.EmployeeCode;
             // ktra mã tồn tại hay chưa trước khi cất, nếu rồi thì trả về isValid service result = false
-            if (ValidateObject(employee))
+            if (!ValidateObject(employee))
             {
                 return serviceResult;
             }

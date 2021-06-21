@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.AMIS\\MISA.AMIS.csproj": {}
+    "C:\\Users\\Nvtuan\\source\\MISA.AMIS.BE\\MISA.AMIS\\MISA.AMIS\\MISA.AMIS.csproj": {}
   },
   "projects": {
-    "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.AMIS\\MISA.AMIS.csproj": {
+    "C:\\Users\\Nvtuan\\source\\MISA.AMIS.BE\\MISA.AMIS\\MISA.AMIS\\MISA.AMIS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.AMIS\\MISA.AMIS.csproj",
+        "projectUniqueName": "C:\\Users\\Nvtuan\\source\\MISA.AMIS.BE\\MISA.AMIS\\MISA.AMIS\\MISA.AMIS.csproj",
         "projectName": "MISA.AMIS",
-        "projectPath": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.AMIS\\MISA.AMIS.csproj",
-        "packagesPath": "C:\\Users\\tuan0\\.nuget\\packages\\",
-        "outputPath": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.AMIS\\obj\\",
+        "projectPath": "C:\\Users\\Nvtuan\\source\\MISA.AMIS.BE\\MISA.AMIS\\MISA.AMIS\\MISA.AMIS.csproj",
+        "packagesPath": "C:\\Users\\Nvtuan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nvtuan\\source\\MISA.AMIS.BE\\MISA.AMIS\\MISA.AMIS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tuan0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nvtuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj": {
-                "projectPath": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj"
+              "C:\\Users\\Nvtuan\\source\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj": {
+                "projectPath": "C:\\Users\\Nvtuan\\source\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj"
               },
-              "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Ifarstructure\\MISA.Ifarstructure.csproj": {
-                "projectPath": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Ifarstructure\\MISA.Ifarstructure.csproj"
+              "C:\\Users\\Nvtuan\\source\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Ifarstructure\\MISA.Ifarstructure.csproj": {
+                "projectPath": "C:\\Users\\Nvtuan\\source\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Ifarstructure\\MISA.Ifarstructure.csproj"
               }
             }
           }
@@ -70,21 +70,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj": {
+    "C:\\Users\\Nvtuan\\source\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Nvtuan\\source\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj",
         "projectName": "MISA.Core",
-        "projectPath": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj",
-        "packagesPath": "C:\\Users\\tuan0\\.nuget\\packages\\",
-        "outputPath": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\obj\\",
+        "projectPath": "C:\\Users\\Nvtuan\\source\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj",
+        "packagesPath": "C:\\Users\\Nvtuan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nvtuan\\source\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tuan0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nvtuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -134,21 +134,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Ifarstructure\\MISA.Ifarstructure.csproj": {
+    "C:\\Users\\Nvtuan\\source\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Ifarstructure\\MISA.Ifarstructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Ifarstructure\\MISA.Ifarstructure.csproj",
+        "projectUniqueName": "C:\\Users\\Nvtuan\\source\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Ifarstructure\\MISA.Ifarstructure.csproj",
         "projectName": "MISA.Ifarstructure",
-        "projectPath": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Ifarstructure\\MISA.Ifarstructure.csproj",
-        "packagesPath": "C:\\Users\\tuan0\\.nuget\\packages\\",
-        "outputPath": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Ifarstructure\\obj\\",
+        "projectPath": "C:\\Users\\Nvtuan\\source\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Ifarstructure\\MISA.Ifarstructure.csproj",
+        "packagesPath": "C:\\Users\\Nvtuan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nvtuan\\source\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Ifarstructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tuan0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nvtuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -162,8 +162,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj": {
-                "projectPath": "D:\\Project_MisaAmis\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj"
+              "C:\\Users\\Nvtuan\\source\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj": {
+                "projectPath": "C:\\Users\\Nvtuan\\source\\MISA.AMIS.BE\\MISA.AMIS\\MISA.Core\\MISA.Core.csproj"
               }
             }
           }
@@ -206,7 +206,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

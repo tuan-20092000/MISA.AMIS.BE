@@ -36,7 +36,7 @@ namespace MISA.Ifarstructure.Repository
 
                 // tạo dynamic và thêm tham số
                 DynamicParameters dynamic = new DynamicParameters();
-                dynamic.Add("@EmployeeId", employee.EmployeeId);
+                dynamic.Add("@EmployeeId", employee.EmployeeId.ToString());
                 dynamic.Add("@EmployeeCode", employee.EmployeeCode);
 
                 // truy vấn và trả về kết quả
