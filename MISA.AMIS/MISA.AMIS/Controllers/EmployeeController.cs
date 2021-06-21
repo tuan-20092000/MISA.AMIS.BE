@@ -71,6 +71,22 @@ namespace MISA.AMIS.Controllers
             }
             return NoContent();
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="keySearch"></param>
+        /// <returns></returns>
+        [HttpPost("GetAllData")]
+        public IActionResult GetAllData([FromBody] string keySearch)
+        {
+            var res = _employeeRepository.GetAllDataRecord(keySearch);
+            if (res.Count > 0)
+            {
+                return Ok(res);
+            }
+            return NoContent();
+        }
         #endregion
     }
 }

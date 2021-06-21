@@ -104,6 +104,18 @@ namespace MISA.Ifarstructure.Repository
             var res = DbConnection.Query<Employee>(procedure, dynamic, commandType: CommandType.StoredProcedure).ToList();
             return res;
         }
+
+
+        public List<Employee> GetAllDataRecord(string keySearch)
+        {
+            var procedure = "Proc_GetAllData";
+            DynamicParameters dynamic = new DynamicParameters();
+            dynamic.Add("@keySearch", keySearch);
+
+            var res = DbConnection.Query<Employee>(procedure, dynamic, commandType: CommandType.StoredProcedure).ToList();
+            return res;
+        }
+
         #endregion
     }
 }
