@@ -17,10 +17,7 @@ namespace MISA.Core.Entities
         // dữ liệu truy vấn
         public List<Object> Data { get; set; } = new List<Object>();
 
-        // tên cột bị lỗi (bằng tiếng việt)
-        public string VFieldError { get; set; } = String.Empty;
-
-        // tên cột bị lỗi(bằng tiếng anh)
+        // tên cột bị lỗi
         public string EFieldError { get; set; } = string.Empty;
     }
 }

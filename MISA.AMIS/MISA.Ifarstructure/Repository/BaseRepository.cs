@@ -105,13 +105,13 @@ namespace MISA.Ifarstructure.Repository
               var rowAffect = DbConnection.Execute(procedure, dynamic, commandType: CommandType.StoredProcedure);
               if (rowAffect > 0)
               {
-                  serviceResult.Messengers.Add("Thêm mới thành công!");
+                  serviceResult.Messengers.Add(Core.Properties.Resources.Msg_Insert_Success);
                   serviceResult.Data.Add(entity);
               }
               else
               {
                   serviceResult.isValid = false;
-                  serviceResult.Messengers.Add("Thêm mới thất bại");
+                  serviceResult.Messengers.Add(Core.Properties.Resources.Msg_Insert_Error);
                   serviceResult.Data.Add(entity);
               }
               return serviceResult;
@@ -148,13 +148,13 @@ namespace MISA.Ifarstructure.Repository
               var res = DbConnection.Execute(procedure, dynamic, commandType: CommandType.StoredProcedure);
               if (res > 0)
               {
-                  serviceResult.Messengers.Add("Sửa thành công!");
+                  serviceResult.Messengers.Add(Core.Properties.Resources.Msg_Update_Success);
                   serviceResult.Data.Add(entity);
               }
               else
               {
                   serviceResult.isValid = false;
-                  serviceResult.Messengers.Add("Sửa thất bại(không thể chèn vào csdl)");
+                  serviceResult.Messengers.Add(Core.Properties.Resources.Msg_Update_Error);
                   serviceResult.Data.Add(entity);
               }
               return serviceResult;

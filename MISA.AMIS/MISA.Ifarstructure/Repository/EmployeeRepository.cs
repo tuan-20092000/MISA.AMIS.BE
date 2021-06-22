@@ -67,6 +67,7 @@ namespace MISA.Ifarstructure.Repository
         /// hàm lấy ra mã nhân viên lớn nhất
         /// </summary>
         /// <returns>mã nhân viên lớn nhất</returns>
+        /// Createdby TuanNV (17/6/2021)
         public string GetMaxEmployeeCode()
         {
               // procedure lấy ra mã nhân viên lớn nhất
@@ -83,7 +84,8 @@ namespace MISA.Ifarstructure.Repository
         /// <param name="page">trang</param>
         /// <param name="countPerPage">số lượng bản ghi/trang</param>
         /// <param name="keySearch">từ khóa tìm kiếm</param>
-        /// <returns></returns>
+        /// <returns>list employee</returns>
+        /// Createdby TuanNV (17/6/2021)
         public List<Employee> GetEmployeePage(int page, int countPerPage, string keySearch)
         {
               // tiền xử lý
@@ -109,6 +111,7 @@ namespace MISA.Ifarstructure.Repository
         /// </summary>
         /// <param name="keySearch">từ khóa tìm kiếm</param>
         /// <returns>tất cả bản ghi phù hợp</returns>
+        /// Createdby TuanNV (17/6/2021)
         public List<Employee> GetAllDataRecord(string keySearch)
         {
               var procedure = "Proc_GetAllData";

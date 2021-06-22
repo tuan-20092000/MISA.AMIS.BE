@@ -1,4 +1,5 @@
 ﻿using Dapper;
+using MISA.Core.AttributeEntity;
 using MISA.Core.Entities;
 using MISA.Core.Interfaces.Ifarstructures;
 using MISA.Core.Interfaces.IServices;
@@ -74,20 +75,78 @@ namespace MISA.Core.Services
 
         // override validate object
         //CreatedBy TuanNV(17/6/2021)
-        public override bool ValidateObject(Employee employee)
+        public override bool ValidateObject(Employee entity)
         {
-            if (CheckEmployeeCodeExist(employee))
+            if (entity is Employee)
             {
-                var employeeCode = employee.EmployeeCode;
+                // lấy tất cả các property của class
+                var properties = typeof(Employee).GetProperties();
+                foreach (var property in properties)
+                {
+                    var requiredProperties = property.GetCustomAttributes(typeof(MISARequired), true);
+                    if (requiredProperties.Length > 0)
+                    {
+                        // lấy giá trị
+                        var propertyValue = property.GetValue(entity);
+                        // kiểm tra giá trị
+                        if (string.IsNullOrEmpty(propertyValue.ToString()))
+                        {
+                            serviceResult.isValid = false;
+                            var fieldName = property.Name;
+                            serviceResult.Messengers.Add(Properties.Resources.Msg_Error_Required);
+                            serviceResult.Data.Add(entity);
+                            return false;
+                        }
+                    }
+                }
+
+
+                // check trùng mã
+                if (CheckEmployeeCodeExist(entity))
+                {
+                    serviceResult.isValid = false;
+                    serviceResult.Messengers.Add(Properties.Resources.Msg_Duplicate_EmployeeCode);
+                    serviceResult.Data.Add(entity);
+                    serviceResult.EFieldError = "EmployeeCode";
+                    return false;
+                }
+
+                // check độ dài các trường
+                foreach (var property in properties)
+                {
+                    var lengthProperties = property.GetCustomAttributes(typeof(MISALength), true);
+                    if (lengthProperties.Length > 0)
+                    {
+                        // lấy giá trị
+                        var propertyValue = property.GetValue(entity);
+                        var maxLength = (lengthProperties[0] as MISALength).MaxLength;
+                        // kiểm tra giá trị
+
+                        if (propertyValue != null && propertyValue.ToString().Length > maxLength)
+                        {
+                            serviceResult.isValid = false;
+                            var fieldName = property.Name;
+                            serviceResult.Messengers.Add(Properties.Resources.Msg_MaxLength_Error);
+                            serviceResult.Data.Add(entity);
+                            serviceResult.EFieldError = fieldName;
+                            return false;
+                        }
+                    }
+                }
+
+
+
+                return true;
+            }
+            else
+            {
                 serviceResult.isValid = false;
-                serviceResult.Messengers.Add($"Mã nhân viên <{employeeCode}> đã tồn tại, vui lòng kiểm tra lại.");
-                serviceResult.Data.Add(employee);
-                serviceResult.VFieldError = "Mã nhân viên";
-                serviceResult.EFieldError = "EmployeeCode";
+                serviceResult.Messengers.Add(Properties.Resources.Msg_Param_Error);
+                serviceResult.Data.Add(entity);
                 return false;
             }
 
-            return true;
+            
         }
 
         #endregion
