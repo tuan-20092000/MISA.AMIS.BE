@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MISA.Core.Enum;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,7 @@ namespace MISA.Core.Entities
     public class ServiceResult
     {
         // kết quả truy vấn hợp lệ hay không (true là có, false là không)
-        public bool isValid { get; set; } = true;
+        public MISACode MISACode { get; set; }
 
         // message thông báo tới người dùng
         public List<string> Messengers { get; set; } = new List<string>();

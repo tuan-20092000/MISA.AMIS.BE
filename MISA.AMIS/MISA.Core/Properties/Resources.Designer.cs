@@ -61,7 +61,25 @@ namespace MISA.Core.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mã nhân viên đã tồn tại trong hệ thống, vui lòng kiểm tra lại.
+        ///   Looks up a localized string similar to Xóa dữ liệu thất bại.
+        /// </summary>
+        public static string Msg_Delete_Error {
+            get {
+                return ResourceManager.GetString("Msg_Delete_Error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Xóa dữ liệu thành công.
+        /// </summary>
+        public static string Msg_Delete_Success {
+            get {
+                return ResourceManager.GetString("Msg_Delete_Success", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to đã tồn tại trong hệ thống, vui lòng kiểm tra lại.
         /// </summary>
         public static string Msg_Duplicate_EmployeeCode {
             get {
@@ -70,7 +88,16 @@ namespace MISA.Core.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Trường này không được phép để trống.
+        ///   Looks up a localized string similar to Mã nhân viên.
+        /// </summary>
+        public static string Msg_Employee {
+            get {
+                return ResourceManager.GetString("Msg_Employee", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to không được phép để trống.
         /// </summary>
         public static string Msg_Error_Required {
             get {
@@ -97,7 +124,7 @@ namespace MISA.Core.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Trường này không được phép quá dài.
+        ///   Looks up a localized string similar to không được phép quá dài.
         /// </summary>
         public static string Msg_MaxLength_Error {
             get {

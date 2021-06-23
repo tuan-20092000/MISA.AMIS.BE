@@ -268,3 +268,5 @@ C:\Users\Nvtuan\source\MISA.AMIS.BE\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AM
 C:\Users\Nvtuan\source\MISA.AMIS.BE\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\ref\MISA.AMIS.dll
 C:\Users\Nvtuan\source\MISA.AMIS.BE\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.pdb
 C:\Users\Nvtuan\source\MISA.AMIS.BE\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.genruntimeconfig.cache
+D:\Project_MisaAmis\MISA.AMIS.BE\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.Properties.Resources.resources
+D:\Project_MisaAmis\MISA.AMIS.BE\MISA.AMIS\MISA.AMIS\obj\Debug\net5.0\MISA.AMIS.csproj.GenerateResource.cache

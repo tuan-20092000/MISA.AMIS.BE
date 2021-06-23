@@ -48,6 +48,6 @@ namespace MISA.Core.Interfaces.Ifarstructures
         /// <param name="entityId">Id của thực thể</param>
         /// <returns>số lượng bản ghi xóa được</returns>
         /// CreatedBy TuanNV (17/6/2021)
-        int Delete(Guid entityId);
+        ServiceResult Delete(Guid entityId);
     }
 }

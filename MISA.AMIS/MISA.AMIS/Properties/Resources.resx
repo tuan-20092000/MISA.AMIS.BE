@@ -117,47 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Msg_Delete_Error" xml:space="preserve">
-    <value>Xóa dữ liệu thất bại</value>
-    <comment>Xóa dữ liệu thất bại</comment>
-  </data>
-  <data name="Msg_Delete_Success" xml:space="preserve">
-    <value>Xóa dữ liệu thành công</value>
-    <comment>Xóa dữ liệu thành công</comment>
-  </data>
-  <data name="Msg_Duplicate_EmployeeCode" xml:space="preserve">
-    <value>đã tồn tại trong hệ thống, vui lòng kiểm tra lại</value>
-    <comment>Trùng mã nhân viên</comment>
-  </data>
-  <data name="Msg_Employee" xml:space="preserve">
-    <value>Mã nhân viên</value>
-  </data>
-  <data name="Msg_Error_Required" xml:space="preserve">
-    <value>không được phép để trống</value>
-    <comment>Trường bắt buộc nhập bị bỏ trống</comment>
-  </data>
-  <data name="Msg_Insert_Error" xml:space="preserve">
-    <value>Thêm mới thất bại</value>
-    <comment>Thêm mới bản ghi thất bại</comment>
-  </data>
-  <data name="Msg_Insert_Success" xml:space="preserve">
+  <data name="AddSuccess" xml:space="preserve">
     <value>Thêm mới thành công</value>
-    <comment>Thêm mới bản ghi thành công</comment>
-  </data>
-  <data name="Msg_MaxLength_Error" xml:space="preserve">
-    <value>không được phép quá dài</value>
-    <comment>Trường nhập quá dài</comment>
-  </data>
-  <data name="Msg_Param_Error" xml:space="preserve">
-    <value>Tham số không hợp lệ</value>
-    <comment>Tham số không hợp lệ</comment>
-  </data>
-  <data name="Msg_Update_Error" xml:space="preserve">
-    <value>Sửa thông tin thất bại</value>
-    <comment>Sửa thông tin bản ghi thất bại</comment>
-  </data>
-  <data name="Msg_Update_Success" xml:space="preserve">
-    <value>Sửa thông tin thành công</value>
-    <comment>Sửa thông tin bản ghi thành công</comment>
   </data>
 </root>

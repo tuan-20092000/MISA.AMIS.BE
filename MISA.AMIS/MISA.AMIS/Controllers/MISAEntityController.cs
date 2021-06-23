@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MISA.AMIS.Properties;
 using MISA.Core.Interfaces.Ifarstructures;
 using MISA.Core.Interfaces.IServices;
 using System;
@@ -93,9 +94,9 @@ namespace MISA.AMIS.Controllers
             try
             {
                 var result = _baseService.Insert(entity);
-                if (result.isValid == true)
+                if (result.MISACode == Core.Enum.MISACode.Success)
                 {
-                    return Ok(result);
+                    return Created(Resources.AddSuccess, result);
                 }
                 else
                 {
@@ -120,7 +121,7 @@ namespace MISA.AMIS.Controllers
             try
             {
                 var result = _baseService.Update(entity);
-                if (result.isValid == true)
+                if (result.MISACode == Core.Enum.MISACode.Success)
                 {
                     return Ok(result);
                 }
@@ -143,10 +144,10 @@ namespace MISA.AMIS.Controllers
         {
             try
             {
-                var rowAffect = _baseRepository.Delete(entityId);
-                if (rowAffect > 0)
+                var result = _baseRepository.Delete(entityId);
+                if (result.MISACode == Core.Enum.MISACode.Success)
                 {
-                    return Ok(rowAffect);
+                    return Ok(result);
                 }
                 else
                 {

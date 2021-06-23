@@ -73,8 +73,11 @@ namespace MISA.Core.Services
             return _employeeRepository.Update(employee);
         }
 
-        // override validate object
-        //CreatedBy TuanNV(17/6/2021)
+        /// <summary>
+        /// override hàm validate object từ base service
+        /// </summary>
+        /// <param name="entity">thực thể cần validate</param>
+        /// <returns>true nếu hợp lệ, false nếu không</returns>
         public override bool ValidateObject(Employee entity)
         {
             if (entity is Employee)
@@ -89,12 +92,14 @@ namespace MISA.Core.Services
                         // lấy giá trị
                         var propertyValue = property.GetValue(entity);
                         // kiểm tra giá trị
-                        if (string.IsNullOrEmpty(propertyValue.ToString()))
+                        if (propertyValue == null || string.IsNullOrEmpty(propertyValue.ToString()))
                         {
-                            serviceResult.isValid = false;
+                            serviceResult.MISACode = Enum.MISACode.ValueRequiredEmpty;
                             var fieldName = property.Name;
-                            serviceResult.Messengers.Add(Properties.Resources.Msg_Error_Required);
+                            var fieldNameRequired = (requiredProperties[0] as MISARequired).PropertyName;
+                            serviceResult.Messengers.Add($"{fieldNameRequired} {Properties.Resources.Msg_Error_Required}");
                             serviceResult.Data.Add(entity);
+                            serviceResult.EFieldError = fieldName;
                             return false;
                         }
                     }
@@ -104,43 +109,19 @@ namespace MISA.Core.Services
                 // check trùng mã
                 if (CheckEmployeeCodeExist(entity))
                 {
-                    serviceResult.isValid = false;
-                    serviceResult.Messengers.Add(Properties.Resources.Msg_Duplicate_EmployeeCode);
+                    var employeeCode = entity.EmployeeCode;
+                    serviceResult.MISACode = Enum.MISACode.DuplicateValue;
+                    serviceResult.Messengers.Add($"{Properties.Resources.Msg_Employee} <{employeeCode}> {Properties.Resources.Msg_Duplicate_EmployeeCode}");
                     serviceResult.Data.Add(entity);
                     serviceResult.EFieldError = "EmployeeCode";
                     return false;
                 }
 
-                // check độ dài các trường
-                foreach (var property in properties)
-                {
-                    var lengthProperties = property.GetCustomAttributes(typeof(MISALength), true);
-                    if (lengthProperties.Length > 0)
-                    {
-                        // lấy giá trị
-                        var propertyValue = property.GetValue(entity);
-                        var maxLength = (lengthProperties[0] as MISALength).MaxLength;
-                        // kiểm tra giá trị
-
-                        if (propertyValue != null && propertyValue.ToString().Length > maxLength)
-                        {
-                            serviceResult.isValid = false;
-                            var fieldName = property.Name;
-                            serviceResult.Messengers.Add(Properties.Resources.Msg_MaxLength_Error);
-                            serviceResult.Data.Add(entity);
-                            serviceResult.EFieldError = fieldName;
-                            return false;
-                        }
-                    }
-                }
-
-
-
                 return true;
             }
             else
             {
-                serviceResult.isValid = false;
+                serviceResult.MISACode = Enum.MISACode.InvalidValue;
                 serviceResult.Messengers.Add(Properties.Resources.Msg_Param_Error);
                 serviceResult.Data.Add(entity);
                 return false;

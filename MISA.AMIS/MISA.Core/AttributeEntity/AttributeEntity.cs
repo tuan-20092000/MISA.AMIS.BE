@@ -10,16 +10,15 @@ namespace MISA.Core.AttributeEntity
 
     public class MISARequired : Attribute
     {
-        
-    }
+        /// <summary>
+        /// Tên của thuộc tính
+        /// </summary>
+        /// CreatedBy TuanNV (17/6/2021)
+        public string PropertyName;
 
-    [AttributeUsage(AttributeTargets.Property)]
-    public class MISALength : Attribute
-    {
-        public int MaxLength = 0;
-        public MISALength(int maxLength = 0)
+        public MISARequired(string propertyName = "")
         {
-            MaxLength = maxLength;
+            PropertyName = propertyName;
         }
     }
 }

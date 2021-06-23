@@ -72,3 +72,5 @@ C:\Users\Nvtuan\source\MISA.AMIS.BE\MISA.AMIS\MISA.Core\obj\Debug\net5.0\ref\MIS
 C:\Users\Nvtuan\source\MISA.AMIS.BE\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.pdb
 C:\Users\Nvtuan\source\MISA.AMIS.BE\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.Properties.Resources.resources
 C:\Users\Nvtuan\source\MISA.AMIS.BE\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.csproj.GenerateResource.cache
+D:\Project_MisaAmis\MISA.AMIS.BE\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.Properties.Resources.resources
+D:\Project_MisaAmis\MISA.AMIS.BE\MISA.AMIS\MISA.Core\obj\Debug\net5.0\MISA.Core.csproj.GenerateResource.cache

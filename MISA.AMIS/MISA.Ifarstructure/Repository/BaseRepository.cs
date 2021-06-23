@@ -105,12 +105,13 @@ namespace MISA.Ifarstructure.Repository
               var rowAffect = DbConnection.Execute(procedure, dynamic, commandType: CommandType.StoredProcedure);
               if (rowAffect > 0)
               {
+                  serviceResult.MISACode = Core.Enum.MISACode.Success;
                   serviceResult.Messengers.Add(Core.Properties.Resources.Msg_Insert_Success);
                   serviceResult.Data.Add(entity);
               }
               else
               {
-                  serviceResult.isValid = false;
+                  serviceResult.MISACode = Core.Enum.MISACode.ErrorAccessDB;
                   serviceResult.Messengers.Add(Core.Properties.Resources.Msg_Insert_Error);
                   serviceResult.Data.Add(entity);
               }
@@ -130,7 +131,6 @@ namespace MISA.Ifarstructure.Repository
 
               // tạo dynamic param
               DynamicParameters dynamic = new DynamicParameters();
-              var sqlCommand = string.Empty;
               var properties = entity.GetType().GetProperties();
               foreach (var prop in properties)
               {
@@ -148,12 +148,13 @@ namespace MISA.Ifarstructure.Repository
               var res = DbConnection.Execute(procedure, dynamic, commandType: CommandType.StoredProcedure);
               if (res > 0)
               {
+                  serviceResult.MISACode = Core.Enum.MISACode.Success;
                   serviceResult.Messengers.Add(Core.Properties.Resources.Msg_Update_Success);
                   serviceResult.Data.Add(entity);
               }
               else
               {
-                  serviceResult.isValid = false;
+                  serviceResult.MISACode = Core.Enum.MISACode.ErrorAccessDB;
                   serviceResult.Messengers.Add(Core.Properties.Resources.Msg_Update_Error);
                   serviceResult.Data.Add(entity);
               }
@@ -166,7 +167,7 @@ namespace MISA.Ifarstructure.Repository
         /// <param name="entityId">id của bản ghi</param>
         /// <returns>1 nếu xóa thành công, 0 nếu xóa thất bại</returns>
         /// CreatedBy TuanNV (17/6/2021)
-        public int Delete(Guid entityId)
+        public ServiceResult Delete(Guid entityId)
         {
              // procedure xóa 1 nhân viên
              var procedure = $"Proc_Delete{ClassName}ById";
@@ -177,8 +178,19 @@ namespace MISA.Ifarstructure.Repository
 
              // thực thi và trả về kết quả
              var rowAffect = DbConnection.Execute(procedure, dynamic, commandType: CommandType.StoredProcedure);
-             return rowAffect;
+             if(rowAffect > 0)
+             {
+                serviceResult.MISACode = Core.Enum.MISACode.Success;
+                serviceResult.Messengers.Add(Core.Properties.Resources.Msg_Delete_Success);
+             }
+             else
+             {
+                serviceResult.MISACode = Core.Enum.MISACode.ErrorAccessDB;
+                serviceResult.Messengers.Add(Core.Properties.Resources.Msg_Delete_Error);
+             }
+             return serviceResult;
         }
+        
 
         #endregion
     }   
